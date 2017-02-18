@@ -13,7 +13,12 @@ Note: You need to `return` your box, not just print it.
 >>> create_box(2, 2, '@')
 '@@
  @@'
+ 
+>>> create_box(-1, 2, 'h')
+'Error, height and width >= 1'
 ```
+>>> create_box(-1, 2, 'h')
+'Error, height and width >= 1'
 
 **Ideas for enhancements in case of extra time:**
 - Add error checking to make sure the width and height is greater or equal to 1
